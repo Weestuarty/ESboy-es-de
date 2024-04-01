@@ -13,6 +13,10 @@
                <sysTitle>0.05</sysTitle>
                <sysLogo>0.04</sysLogo>
                <helpSize>0.025</helpSize>
+               <textlistsize>0.03</textlistsize>
+               <gamedescsize>0.025</gamedescsize>
+               <gamesyssize>0.04</gamesyssize>
+               <selectoffset>0.01</selectoffset>
             </variables>
         </fontSize>
         <fontSize name="large">
@@ -22,6 +26,10 @@
                 <sysTitle>0.06</sysTitle>
                 <sysLogo>0.05</sysLogo>
                 <helpSize>0.0325</helpSize>
+                <textlistsize>0.04</textlistsize>
+                <gamedescsize>0.0325</gamedescsize>
+                <gamesyssize>0.05</gamesyssize>
+                <selectoffset>0.015</selectoffset>
             </variables>
         </fontSize>
 
@@ -32,6 +40,10 @@
                 <sysTitle>0.07</sysTitle>
                 <sysLogo>0.06</sysLogo>
                 <helpSize>0.04</helpSize>
+                <textlistsize>0.05</textlistsize>
+                <gamedescsize>0.04</gamedescsize>
+                <gamesyssize>0.06</gamesyssize>
+                <selectoffset>0.025</selectoffset>
             </variables>
         </fontSize>
    

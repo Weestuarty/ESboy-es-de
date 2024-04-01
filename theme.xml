@@ -171,7 +171,7 @@
 			<size>0.35 0.68</size>
 			<origin>0 0</origin>
 			<selectorHeight>0.025</selectorHeight>
-			<selectorVerticalOffset>0.01</selectorVerticalOffset>
+			<selectorVerticalOffset>${selectoffset}</selectorVerticalOffset>
 			<selectorHorizontalOffset>-0.005</selectorHorizontalOffset>
 			<selectorColor>${mainColor}</selectorColor>
 			<selectorImagePath>./assets/arrow.png</selectorImagePath>
@@ -179,7 +179,8 @@
 			<primaryColor>${secondaryColor}</primaryColor>
 			<secondaryColor>${tertiaryColor}</secondaryColor>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.030</fontSize>
+			<fontSize>${textlistsize}</fontSize>
+			<indicators>ascii</indicators>
 			<horizontalAlignment>left</horizontalAlignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<letterCase>none</letterCase>
@@ -188,18 +189,18 @@
 		<text name="list">
 			<text>Game Selection:</text>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.03</fontSize>
-			<pos>0.05 0.01</pos>
-			<size>0.29 0.3</size>
+			<fontSize>${textlistsize}</fontSize>
+			<pos>0.05 0.115</pos>
+			<size>0.29 0.1</size>
 			<color>${mainColor}</color>
 
 		</text>
 		<text name="synopsis">
 			<text>Game Synopsis:</text>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.03</fontSize>
-			<pos>0.69 0.01</pos>
-			<size>0.29 0.3</size>
+			<fontSize>${textlistsize}</fontSize>
+			<pos>0.69 0.115</pos>
+			<size>0.29 0.1</size>
 			<color>${mainColor}</color>
 
 		</text>
@@ -213,7 +214,7 @@
 			<containerResetDelay>7</containerResetDelay>
 			<metadata>description</metadata>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.025</fontSize>
+			<fontSize>${gamedescsize}</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
 			<lineSpacing>1.2</lineSpacing>
@@ -290,9 +291,9 @@
 		<text name="Syslogo">
 			<text>Selected System: ${system.fullName}</text>
 			<pos>0.05 0.065</pos>
-			<size>0.6 0.1</size>
+			<size>0.9 0.05</size>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.04</fontSize>
+			<fontSize>${gamesyssize}</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
 		</text>

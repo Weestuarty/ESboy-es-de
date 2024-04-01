@@ -1,0 +1,38 @@
+<theme>
+
+    <variables>
+        <mainFont>./assets/fonts/data.ttf</mainFont>
+		<secondaryFont>./assets/fonts/laz.ttf</secondaryFont>
+    </variables>
+
+
+   
+        <fontSize name="medium">
+            <variables>
+               <sysSize>0.025</sysSize>
+               <sysTitle>0.05</sysTitle>
+               <sysLogo>0.04</sysLogo>
+               <helpSize>0.025</helpSize>
+            </variables>
+        </fontSize>
+        <fontSize name="large">
+            <variables>
+               
+                <sysSize>0.03</sysSize>
+                <sysTitle>0.06</sysTitle>
+                <sysLogo>0.05</sysLogo>
+                <helpSize>0.0325</helpSize>
+            </variables>
+        </fontSize>
+
+        <fontSize name="x-large">
+            <variables>
+               
+                <sysSize>0.035</sysSize>
+                <sysTitle>0.07</sysTitle>
+                <sysLogo>0.06</sysLogo>
+                <helpSize>0.04</helpSize>
+            </variables>
+        </fontSize>
+   
+</theme>

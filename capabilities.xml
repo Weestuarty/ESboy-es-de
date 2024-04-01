@@ -1,0 +1,36 @@
+<!--
+    Theme capabilities for ES-Boy
+-->
+
+<themeCapabilities>
+    <fontSize>medium</fontSize>
+    <fontSize>large</fontSize>
+    <fontSize>x-large</fontSize>
+    <themeName>ES-Boy</themeName>
+    <aspectRatio>16:9</aspectRatio>
+    <aspectRatio>16:10</aspectRatio>
+    <aspectRatio>4:3</aspectRatio>
+    <aspectRatio>21:9</aspectRatio>
+
+    <colorScheme name="green">
+        <label>Green</label>
+    </colorScheme>
+
+    <colorScheme name="grey">
+        <label>Grey</label>
+    </colorScheme>
+
+	<colorScheme name="gold">
+        <label>Gold</label>
+    </colorScheme>
+
+    <variant name="withVideos">
+        <label>Textlist with videos</label>
+        <selectable>true</selectable>
+    </variant>
+
+    <variant name="withoutVideos">
+        <label>Textlist without videos</label>
+        <selectable>true</selectable>
+    </variant>
+</themeCapabilities>

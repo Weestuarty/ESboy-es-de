@@ -1,0 +1,342 @@
+<!--
+   
+-->
+
+<theme>
+	<include>./navigationsounds.xml</include>
+	<include>./colors.xml</include> 
+	<include>./system/metadata/_default.xml</include>
+    <include>./system/custom/metadata/${system.theme}.xml</include>
+    <include>./system/metadata/${system.theme}.xml</include>
+	<include>./font.xml</include>
+
+	<variables>
+		
+	</variables>
+
+	<aspectRatio name="16:9">
+		<include>./aspect-ratio-16-9.xml</include>
+	</aspectRatio>
+	<aspectRatio name="16:10">
+		<include>./aspect-ratio-16-10.xml</include>
+	</aspectRatio>
+	<aspectRatio name="4:3">
+		<include>./aspect-ratio-4-3.xml</include>
+	</aspectRatio>
+	<aspectRatio name="21:9">
+		<include>./aspect-ratio-21-9.xml</include>
+	</aspectRatio>
+
+	<view name="system, gamelist">
+		<image name="background">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<path>./assets/box.png</path>
+			<tile>false</tile>
+			<color>${backgroundColor}</color>
+			<zIndex>0</zIndex>
+		</image>
+		<image name="crt">
+			<size>1 1</size>
+			<origin>0 0</origin>
+			<path>./assets/frame.png</path>
+			<tile>false</tile>
+			<zIndex>101</zIndex>
+		</image>
+
+
+		<helpsystem name="help">
+			<origin>1.05 0.5</origin>
+			<textColor>${secondaryColor}</textColor>
+			<textColorDimmed>${secondaryColor}</textColorDimmed>
+			<iconColor>${secondaryColor}</iconColor>
+			<iconColorDimmed>${secondaryColor}</iconColorDimmed>
+			<fontPath>${mainFont}</fontPath>
+			<letterCase>capitalize</letterCase>
+			<opacity>0.5</opacity>
+			<fontSize>${helpSize}</fontSize>
+		</helpsystem>
+	</view>
+
+	<view name="system">
+		<image name="console">
+			<pos>0.75 0.6</pos>
+			<origin>0.5 .5</origin>
+			<maxSize>0.35 0.53</maxSize>
+			<path>./assets/controllers/${system.theme}.svg</path>
+			<tile>false</tile>
+			<saturation>0</saturation>
+			<color>${mainColor}</color>
+			<zIndex>35</zIndex>
+		</image>
+
+		<image name="logo">
+			<pos>0.26 0.3</pos>
+			<origin>0 0</origin>
+			<maxSize>0.2 0.1</maxSize>
+			<path>./system/logos/system-logo-white/${system.theme}.svg</path>
+			<default>./system/custom/logo/${system.theme}.svg</default>
+			<tile>false</tile>
+			<color>${mainColor}</color>
+			<zIndex>35</zIndex>
+		</image>
+
+		<text name="info1">
+			<text>${systemDescription}</text>
+			<pos>0.05 0.45</pos>
+			<size>0.5 0.45</size>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>${sysSize}</fontSize>
+			<horizontalAlignment>left</horizontalAlignment>
+			<color>${mainColor}</color>
+			<container>true</container>
+		</text>
+		
+		<text name="emu">
+			<text>EmulationStation</text>
+			<fontPath>${secondaryFont}</fontPath>
+			<fontSize>0.07</fontSize>
+			<size>0.55 0.75</size>
+			<color>${mainColor}</color>
+			<pos>0.05 -0.28</pos>
+			<origin>0 0</origin>
+			<letterCase>none</letterCase>
+		</text>
+		<text name="sysname1">
+			<text>System:</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>${sysTitle}</fontSize>
+			<pos>0.05 -0.11</pos>
+			<origin>0 0</origin>
+			<size>0.85 0.65</size>
+
+			<color>${mainColor}</color>
+		</text>
+		<text name="sysname2">
+			<text>${systemName}</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>${sysTitle}</fontSize>
+			<pos>0.26 -0.11</pos>
+			<origin>0 0</origin>
+			<size>0.85 0.65</size>
+
+			<color>${mainColor}</color>
+			</text>
+		<text name="syslogo">
+			<text>System Logo:</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>${sysLogo}</fontSize>
+			<pos>0.05 0.325</pos>
+			<origin>0 0.5</origin>
+			<size>0.4 0.2</size>
+			<lineSpacing>1</lineSpacing>
+
+			<color>${mainColor}</color>
+
+
+		</text>
+		<carousel name="system_carousel">
+			<pos>0 0.05</pos>
+			<size>1 0.3</size>
+			<type>horizontal</type>
+
+			<color>00000000</color>
+			<textBackgroundColor>00000000</textBackgroundColor>
+			<!-- Placeholder text -->
+			<text>${system.fullName}</text>
+			<textColor>00000000</textColor>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.035</fontSize>
+			<letterCase>none</letterCase>
+			<lineSpacing>1.5</lineSpacing>
+			<zIndex>50</zIndex>
+		</carousel>
+	</view>
+	<view name="system, gamelist">
+		<image name="scan">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./scanline3.png</path>
+			<tile>true</tile>
+			<tileSize>0.25 0.25</tileSize>
+			<opacity>1</opacity>
+			<color>${mainColor}</color>
+			<zIndex>100</zIndex>
+		</image>
+	</view>
+	<view name="gamelist">
+		<textlist name="gamelist">
+			<pos>0.04 0.2</pos>
+			<size>0.35 0.68</size>
+			<origin>0 0</origin>
+			<selectorHeight>0.025</selectorHeight>
+			<selectorVerticalOffset>0.01</selectorVerticalOffset>
+			<selectorHorizontalOffset>-0.005</selectorHorizontalOffset>
+			<selectorColor>${mainColor}</selectorColor>
+			<selectorImagePath>./assets/arrow.png</selectorImagePath>
+			<selectedColor>${mainColor}</selectedColor>
+			<primaryColor>${secondaryColor}</primaryColor>
+			<secondaryColor>${tertiaryColor}</secondaryColor>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.030</fontSize>
+			<horizontalAlignment>left</horizontalAlignment>
+			<horizontalMargin>0.01</horizontalMargin>
+			<letterCase>none</letterCase>
+			<lineSpacing>1</lineSpacing>
+		</textlist>
+		<text name="list">
+			<text>Game Selection:</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.05 0.01</pos>
+			<size>0.29 0.3</size>
+			<color>${mainColor}</color>
+
+		</text>
+		<text name="synopsis">
+			<text>Game Synopsis:</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.03</fontSize>
+			<pos>0.69 0.01</pos>
+			<size>0.29 0.3</size>
+			<color>${mainColor}</color>
+
+		</text>
+		<text name="md_description">
+			<pos>0.69 0.2</pos>
+			<size>0.26 0.5</size>
+			<container>true</container>
+			<containerVerticalSnap>true</containerVerticalSnap>
+			<containerScrollSpeed>1</containerScrollSpeed>
+			<containerStartDelay>4.5</containerStartDelay>
+			<containerResetDelay>7</containerResetDelay>
+			<metadata>description</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.025</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+			<lineSpacing>1.2</lineSpacing>
+		</text>
+		<text name="md_lbl_releasedate">
+			<pos>0.69 0.7</pos>
+			<text>Released:</text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+			<metadataElement>true</metadataElement>
+		</text>
+		<datetime name="md_releasedate">
+			<pos>0.8 0.7</pos>
+			<metadata>releasedate</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+		</datetime>
+		<text name="md_lbl_publisher">
+			<pos>0.69 0.83</pos>
+			<text>Published by </text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+			<metadataElement>true</metadataElement>
+		</text>
+		<text name="md_publisher">
+			<pos>0.77 0.83</pos>
+			<metadata>publisher</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+		</text>
+		<text name="md_lbl_developer">
+			<pos>0.69 0.8</pos>
+			<text>Developed by </text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+			<metadataElement>true</metadataElement>
+		</text>
+		<text name="md_developer">
+			<pos>0.77 0.8</pos>
+			<metadata>developer</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.02</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+		</text>
+		<text name="md_lbl_players">
+			<pos>0.69 0.75</pos>
+			<text>Number of players </text>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+			<metadataElement>true</metadataElement>
+		</text>
+		<text name="md_players">
+			<pos>0.9 0.75</pos>
+			<metadata>players</metadata>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+		</text>
+
+		<text name="Syslogo">
+			<text>Selected System: ${system.fullName}</text>
+			<pos>0.05 0.065</pos>
+			<size>0.6 0.1</size>
+			<fontPath>${mainFont}</fontPath>
+			<fontSize>0.04</fontSize>
+			<color>${mainColor}</color>
+			<letterCase>uppercase</letterCase>
+		</text>
+		<image name="md_marquee">
+			<pos>0.54 0.3</pos>
+			<maxSize>0.28 0.3</maxSize>
+			<origin>0.5 0.5</origin>
+			<imageType>marquee</imageType>
+			<saturation>0</saturation>
+			<color>${mainColor}77</color>
+			<brightness>1</brightness>
+			<zIndex>35</zIndex>
+
+		</image>
+	</view>
+
+	<variant name="withVideos">
+		<view name="gamelist">
+			<video name="md_video">
+				<pos>0.54 0.7</pos>
+				<maxSize>0.27 0.35</maxSize>
+				<origin>0.5 0.5</origin>
+				<imageType>image</imageType>
+				<delay>1.5</delay>
+				<iterationCount>1</iterationCount>
+				<onIterationsDone>image</onIterationsDone>
+				<color>${mainColor}77</color>
+				<videoCornerRadius>0.01</videoCornerRadius>
+				<saturation>0</saturation>
+				<brightness>1</brightness>
+			</video>
+		</view>
+	</variant>
+
+	<variant name="withoutVideos">
+		<view name="gamelist">
+			<image name="md_image">
+				<pos>0.54 0.7</pos>
+				<maxSize>0.27 0.35</maxSize>
+				<origin>0.5 0.5</origin>
+				<imageType>screenshot</imageType>
+				<color>${mainColor}dd</color>
+				<saturation>0</saturation>
+			</image>
+		</view>
+	</variant>
+</theme>

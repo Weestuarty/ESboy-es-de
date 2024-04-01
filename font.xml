@@ -2,7 +2,7 @@
 
     <variables>
         <mainFont>./assets/fonts/data.ttf</mainFont>
-		<secondaryFont>./assets/fonts/laz.ttf</secondaryFont>
+		<secondaryFont>./assets/fonts/bob.ttf</secondaryFont>
     </variables>
 
 

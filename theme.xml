@@ -94,10 +94,10 @@
 		</text>
 		
 		<text name="emu">
-			<text>EmulationStation</text>
+			<text>ES-DE GAMING FRONTEND</text>
 			<fontPath>${secondaryFont}</fontPath>
 			<fontSize>0.07</fontSize>
-			<size>0.55 0.75</size>
+			<size>0.9 0.75</size>
 			<color>${mainColor}</color>
 			<pos>0.05 -0.28</pos>
 			<origin>0 0</origin>
@@ -160,7 +160,7 @@
 			<path>./scanline3.png</path>
 			<tile>true</tile>
 			<tileSize>0.25 0.25</tileSize>
-			<opacity>1</opacity>
+			<opacity>0.75</opacity>
 			<color>${mainColor}</color>
 			<zIndex>100</zIndex>
 		</image>
@@ -181,6 +181,7 @@
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${textlistsize}</fontSize>
 			<indicators>ascii</indicators>
+			<systemNameSuffix>false</systemNameSuffix>
 			<horizontalAlignment>left</horizontalAlignment>
 			<horizontalMargin>0.01</horizontalMargin>
 			<letterCase>none</letterCase>
@@ -303,8 +304,8 @@
 			<origin>0.5 0.5</origin>
 			<imageType>marquee</imageType>
 			<saturation>0</saturation>
-			<color>${mainColor}77</color>
-			<brightness>1</brightness>
+			<color>${mainColor}dd</color>
+			<brightness>0.2</brightness>
 			<zIndex>35</zIndex>
 
 		</image>
@@ -320,10 +321,10 @@
 				<delay>1.5</delay>
 				<iterationCount>1</iterationCount>
 				<onIterationsDone>image</onIterationsDone>
-				<color>${mainColor}77</color>
+				<color>${mainColor}dd</color>
 				<videoCornerRadius>0.01</videoCornerRadius>
 				<saturation>0</saturation>
-				<brightness>1</brightness>
+				<brightness>0.2</brightness>
 			</video>
 		</view>
 	</variant>

@@ -1,5 +1,15 @@
 <theme>
     <view name="system, gamelist">
+        <image name="scan">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./scanline3.png</path>
+			<tile>true</tile>
+			<tileSize>0.15 0.15</tileSize>
+			<opacity>1</opacity>
+			<color>${mainColor}</color>
+			<zIndex>100</zIndex>
+		</image>
         <helpsystem name="help">
             <pos>0.96 0.9415</pos>
             <fontSize>0.029</fontSize>

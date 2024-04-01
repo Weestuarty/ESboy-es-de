@@ -232,6 +232,7 @@
 		<datetime name="md_releasedate">
 			<pos>0.8 0.7</pos>
 			<metadata>releasedate</metadata>
+			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.04</fontSize>
 			<color>${mainColor}</color>
@@ -249,6 +250,7 @@
 		<text name="md_publisher">
 			<pos>0.77 0.83</pos>
 			<metadata>publisher</metadata>
+			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.02</fontSize>
 			<color>${mainColor}</color>
@@ -266,6 +268,7 @@
 		<text name="md_developer">
 			<pos>0.77 0.8</pos>
 			<metadata>developer</metadata>
+			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.02</fontSize>
 			<color>${mainColor}</color>
@@ -283,6 +286,7 @@
 		<text name="md_players">
 			<pos>0.9 0.75</pos>
 			<metadata>players</metadata>
+			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.04</fontSize>
 			<color>${mainColor}</color>

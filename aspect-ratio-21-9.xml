@@ -1,6 +1,6 @@
 <theme>
     <view name="system, gamelist">
-       <image name="scan">
+       <!--<image name="scan">
 			<pos>0 0</pos>
 			<size>1 1</size>
 			<path>./scanline3.png</path>
@@ -9,7 +9,7 @@
 			<opacity>0.5</opacity>
 			<color>${mainColor}</color>
 			<zIndex>100</zIndex>
-		</image>
+		</image>-->
         <helpsystem name="help">
             <pos>0.96 0.935</pos>
             <fontSize>0.035</fontSize>

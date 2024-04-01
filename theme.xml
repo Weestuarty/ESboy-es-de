@@ -157,10 +157,10 @@
 		<image name="scan">
 			<pos>0 0</pos>
 			<size>1 1</size>
-			<path>./scanline3.png</path>
+			<path>./scan.png</path>
 			<tile>true</tile>
-			<tileSize>0.25 0.25</tileSize>
-			<opacity>0.75</opacity>
+			<tileSize>0 0.0225</tileSize>
+			<opacity>0.15</opacity>
 			<color>${mainColor}</color>
 			<zIndex>100</zIndex>
 		</image>

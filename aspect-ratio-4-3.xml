@@ -12,7 +12,13 @@
     </view>
 
     <view name="system">
+        <text name="emu">
+			
+			<fontSize>0.065</fontSize>
+		
+		</text>
         <carousel name="system_carousel">
+
             <maxItemCount>4</maxItemCount>
             <itemSize>0.232 0.314</itemSize>
         </carousel>
@@ -38,6 +44,33 @@
     </view>
 
     <view name="gamelist">
+        <text name="md_lbl_releasedate">
+			
+			<fontSize>0.03</fontSize>
+		</text>
+		<datetime name="md_releasedate">
+			
+			<fontSize>0.03</fontSize>
+		</datetime>
+        <text name="md_lbl_players">
+			
+			<fontSize>0.03</fontSize>
+			
+		</text>
+		<text name="md_players">
+			
+			<fontSize>0.03</fontSize>
+			
+		</text>
+        <text name="md_publisher">
+			<pos>0.79 0.83</pos>
+			
+		</text>
+		
+		<text name="md_developer">
+			<pos>0.79 0.8</pos>
+			
+		</text>
         <badges name="md_badges">
             <lines>2</lines>
             <itemsPerLine>4</itemsPerLine>

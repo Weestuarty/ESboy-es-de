@@ -11,14 +11,10 @@
 			<zIndex>100</zIndex>
 		</image>-->
         <helpsystem name="help">
-            <pos>0.96 0.935</pos>
-            <fontSize>0.035</fontSize>
-            <entrySpacing>0.024</entrySpacing>
+            <pos>0.05 0.94</pos>
             <iconTextSpacing>0.00516</iconTextSpacing>
         </helpsystem>
-        <image name="bottomline">
-            <pos>0.5 0.9</pos>
-        </image>
+       
     </view>
 
     <view name="system">

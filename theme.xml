@@ -47,7 +47,8 @@
 
 
 		<helpsystem name="help">
-			<origin>1.05 0.5</origin>
+			<origin>0 0.5</origin>
+			<pos>0.05 0.95</pos>
 			<textColor>${secondaryColor}</textColor>
 			<textColorDimmed>${secondaryColor}</textColorDimmed>
 			<iconColor>${secondaryColor}</iconColor>
@@ -178,7 +179,7 @@
 			<selectorImagePath>./assets/arrow.png</selectorImagePath>
 			<selectedColor>${mainColor}</selectedColor>
 			<primaryColor>${secondaryColor}</primaryColor>
-			<secondaryColor>${tertiaryColor}</secondaryColor>
+			<secondaryColor>${secondaryColor}</secondaryColor>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${textlistsize}</fontSize>
 			<indicators>ascii</indicators>
@@ -222,7 +223,7 @@
 			<lineSpacing>1.2</lineSpacing>
 		</text>
 		<text name="md_lbl_releasedate">
-			<pos>0.69 0.7</pos>
+			<pos>0.69 0.69</pos>
 			<text>Released:</text>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.04</fontSize>
@@ -231,7 +232,7 @@
 			<metadataElement>true</metadataElement>
 		</text>
 		<datetime name="md_releasedate">
-			<pos>0.8 0.7</pos>
+			<pos>0.8 0.69</pos>
 			<metadata>releasedate</metadata>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
@@ -240,44 +241,56 @@
 			<letterCase>uppercase</letterCase>
 		</datetime>
 		<text name="md_lbl_publisher">
-			<pos>0.69 0.83</pos>
-			<text>Published by </text>
+			<pos>0.69 0.8575</pos>
+			<size>0.25 0.03</size>
+			<text>Publisher: </text>
+			<lineSpacing>0.95</lineSpacing>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.03</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
 			<metadataElement>true</metadataElement>
+			<verticalAlignment>top</verticalAlignment>
 		</text>
 		<text name="md_publisher">
-			<pos>0.77 0.83</pos>
+			<pos>0.69 0.8875</pos>
+			<size>0.25 0.03</size>
 			<metadata>publisher</metadata>
+			<lineSpacing>0.95</lineSpacing>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.03</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
+			<verticalAlignment>top</verticalAlignment>
 		</text>
 		<text name="md_lbl_developer">
-			<pos>0.69 0.8</pos>
-			<text>Developed by </text>
+			<pos>0.69 0.7975</pos>
+			<size>0.25 0.06</size>
+			<text>Developer: </text>
+			<lineSpacing>0.95</lineSpacing>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<fontSize>0.03</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
 			<metadataElement>true</metadataElement>
+			<verticalAlignment>top</verticalAlignment>
 		</text>
 		<text name="md_developer">
-			<pos>0.77 0.8</pos>
+			<pos>0.69 0.8275</pos>
+			<size>0.25 0.03</size>
 			<metadata>developer</metadata>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
-			<fontSize>0.02</fontSize>
+			<lineSpacing>0.95</lineSpacing>
+			<fontSize>0.03</fontSize>
 			<color>${mainColor}</color>
 			<letterCase>uppercase</letterCase>
+			<verticalAlignment>top</verticalAlignment>
 		</text>
 		<text name="md_lbl_players">
-			<pos>0.69 0.75</pos>
-			<text>Number of players </text>
+			<pos>0.69 0.74</pos>
+			<text>Number of players: </text>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.04</fontSize>
@@ -286,7 +299,7 @@
 			<metadataElement>true</metadataElement>
 		</text>
 		<text name="md_players">
-			<pos>0.9 0.75</pos>
+			<pos>0.9 0.74</pos>
 			<metadata>players</metadata>
 			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>

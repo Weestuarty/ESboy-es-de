@@ -11,9 +11,7 @@
 			<zIndex>100</zIndex>
 		</image>-->
         <helpsystem name="help">
-            <pos>0.96 0.9415</pos>
-            <fontSize>0.029</fontSize>
-            <entrySpacing>0.022</entrySpacing>
+            <pos>0.05 0.94</pos>
             <iconTextSpacing>0.00516</iconTextSpacing>
         </helpsystem>
         <image name="bottomline">

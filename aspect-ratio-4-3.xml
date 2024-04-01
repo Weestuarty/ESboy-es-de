@@ -1,14 +1,11 @@
 <theme>
     <view name="system, gamelist">
         <helpsystem name="help">
-            <pos>0.96 0.935</pos>
-            <fontSize>0.026</fontSize>
-            <entrySpacing>0.01675</entrySpacing>
+            <pos>0.05 0.94</pos>
+            <fontSize>${helpsize43}</fontSize>
             <iconTextSpacing>0.0041666</iconTextSpacing>
         </helpsystem>
-        <image name="bottomline">
-            <pos>0.5 0.9</pos>
-        </image>
+       
     </view>
 
     <view name="system">
@@ -62,15 +59,7 @@
 			<fontSize>0.03</fontSize>
 			
 		</text>
-        <text name="md_publisher">
-			<pos>0.79 0.83</pos>
-			
-		</text>
-		
-		<text name="md_developer">
-			<pos>0.79 0.8</pos>
-			
-		</text>
+        
         <badges name="md_badges">
             <lines>2</lines>
             <itemsPerLine>4</itemsPerLine>

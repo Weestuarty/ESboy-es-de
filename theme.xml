@@ -94,10 +94,10 @@
 		</text>
 		
 		<text name="emu">
-			<text>EmulationStation</text>
+			<text>ES-DE GAMING FRONTEND</text>
 			<fontPath>${secondaryFont}</fontPath>
 			<fontSize>0.07</fontSize>
-			<size>0.55 0.75</size>
+			<size>0.9 0.75</size>
 			<color>${mainColor}</color>
 			<pos>0.05 -0.28</pos>
 			<origin>0 0</origin>

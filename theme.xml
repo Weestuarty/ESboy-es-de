@@ -305,8 +305,8 @@
 			<origin>0.5 0.5</origin>
 			<imageType>marquee</imageType>
 			<saturation>0</saturation>
-			<color>${mainColor}dd</color>
-			<brightness>0.2</brightness>
+			<color>${mainColor}</color>
+			<brightness>0.4</brightness>
 			<zIndex>35</zIndex>
 
 		</image>
@@ -322,10 +322,10 @@
 				<delay>1.5</delay>
 				<iterationCount>1</iterationCount>
 				<onIterationsDone>image</onIterationsDone>
-				<color>${mainColor}dd</color>
+				<color>${mainColor}</color>
 				<videoCornerRadius>0.01</videoCornerRadius>
 				<saturation>0</saturation>
-				<brightness>0.2</brightness>
+				<brightness>0.4</brightness>
 			</video>
 		</view>
 	</variant>

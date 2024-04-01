@@ -288,6 +288,7 @@
 		<text name="md_players">
 			<pos>0.9 0.75</pos>
 			<metadata>players</metadata>
+			<defaultValue>:space:</defaultValue>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>0.04</fontSize>
 			<color>${mainColor}</color>

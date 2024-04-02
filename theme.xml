@@ -170,7 +170,7 @@
 	<view name="gamelist">
 		<textlist name="gamelist">
 			<pos>0.04 0.2</pos>
-			<size>0.35 0.69</size>
+			<size>0.35 0.685</size>
 			<origin>0 0</origin>
 			<selectorHeight>0.025</selectorHeight>
 			<selectorVerticalOffset>${selectoffset}</selectorVerticalOffset>

@@ -76,7 +76,7 @@
 		</image>
 
 		<image name="logo">
-			<pos>0.26 0.3</pos>
+			<pos>${logopos}</pos>
 			<origin>0 0</origin>
 			<maxSize>0.2 0.1</maxSize>
 			<path>./system/logos/system-logo-white/${system.theme}.svg</path>
@@ -121,9 +121,10 @@
 			<text>${systemName}</text>
 			<fontPath>${mainFont}</fontPath>
 			<fontSize>${sysTitle}</fontSize>
+			<lineSpacing>0.95</lineSpacing>
 			<pos>0.26 -0.11</pos>
 			<origin>0 0</origin>
-			<size>0.85 0.65</size>
+			<size>0.7 0.65</size>
 
 			<color>${mainColor}</color>
 			</text>

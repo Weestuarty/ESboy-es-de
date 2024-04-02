@@ -20,6 +20,9 @@
     </view>
 
     <view name="system">
+        <image name="logo">
+			<pos>${logopos1610}</pos>
+        </image>
         <carousel name="system_carousel">
             <maxItemCount>4</maxItemCount>
             <itemSize>0.234 0.374</itemSize>

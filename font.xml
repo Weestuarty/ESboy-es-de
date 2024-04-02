@@ -10,6 +10,7 @@
         <fontSize name="medium">
             <variables>
                 <logopos>0.26 0.3</logopos>
+                <logopos1610>0.26 0.3</logopos1610>
                <sysSize>0.025</sysSize>
                <sysTitle>0.05</sysTitle>
                <sysLogo>0.04</sysLogo>
@@ -25,6 +26,7 @@
             <variables>
                
                 <logopos>0.3 0.3</logopos>
+                <logopos1610>0.26 0.3</logopos1610>
                 <sysSize>0.03</sysSize>
                 <sysTitle>0.06</sysTitle>
                 <sysLogo>0.05</sysLogo>
@@ -40,6 +42,7 @@
         <fontSize name="x-large">
             <variables>
                <logopos>0.35 0.3</logopos>
+               <logopos1610>0.3 0.3</logopos1610>
                 <sysSize>0.035</sysSize>
                 <sysTitle>0.07</sysTitle>
                 <sysLogo>0.06</sysLogo>

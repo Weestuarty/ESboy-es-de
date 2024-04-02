@@ -13,6 +13,7 @@
                <sysTitle>0.05</sysTitle>
                <sysLogo>0.04</sysLogo>
                <helpSize>0.03</helpSize>
+               <helpsize43>0.0275</helpsize43>
                <textlistsize>0.03</textlistsize>
                <gamedescsize>0.025</gamedescsize>
                <gamesyssize>0.04</gamesyssize>
@@ -25,7 +26,8 @@
                 <sysSize>0.03</sysSize>
                 <sysTitle>0.06</sysTitle>
                 <sysLogo>0.05</sysLogo>
-                <helpSize>0.035</helpSize>
+                <helpSize>0.03</helpSize>
+                <helpsize43>0.035</helpsize43>
                 <textlistsize>0.04</textlistsize>
                 <gamedescsize>0.0325</gamedescsize>
                 <gamesyssize>0.05</gamesyssize>
@@ -40,6 +42,7 @@
                 <sysTitle>0.07</sysTitle>
                 <sysLogo>0.06</sysLogo>
                 <helpSize>0.04</helpSize>
+                <helpsize43>0.0325</helpsize43>
                 <textlistsize>0.05</textlistsize>
                 <gamedescsize>0.04</gamedescsize>
                 <gamesyssize>0.06</gamesyssize>

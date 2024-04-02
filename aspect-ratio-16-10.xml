@@ -46,6 +46,9 @@
     </view>
 
     <view name="gamelist">
+        <text name="md_players">
+			<pos>0.915 0.74</pos>
+            </text>
         <badges name="md_badges">
             <lines>2</lines>
             <itemsPerLine>4</itemsPerLine>

@@ -76,7 +76,7 @@
 		</image>
 
 		<image name="logo">
-			<pos>${logopos}</pos>
+			<pos>0.26 0.3</pos>
 			<origin>0 0</origin>
 			<maxSize>0.2 0.1</maxSize>
 			<path>./system/logos/system-logo-white/${system.theme}.svg</path>

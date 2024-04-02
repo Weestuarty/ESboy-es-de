@@ -55,7 +55,7 @@
 			<iconColorDimmed>${secondaryColor}</iconColorDimmed>
 			<fontPath>${mainFont}</fontPath>
 			<letterCase>capitalize</letterCase>
-			<opacity>0.5</opacity>
+			<opacity>1</opacity>
 			<fontSize>${helpSize}</fontSize>
 		</helpsystem>
 	</view>

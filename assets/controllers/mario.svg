@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+
+<svg
+   width="800px"
+   height="800px"
+   viewBox="0 0 48 48"
+   id="b"
+   version="1.1"
+   sodipodi:docname="super-mario-run-svgrepo-com.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview11"
+     pagecolor="#ffffff"
+     bordercolor="#111111"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.06875"
+     inkscape:cx="326.08187"
+     inkscape:cy="400.46784"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="b" />
+  <defs
+     id="defs4">
+    <style
+       id="style2">.c{fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;}</style>
+  </defs>
+  <polygon
+     class="c"
+     points="31.1 11.3 24 19.4 16.9 11.3 8.2 29.5 13.8 34.2 18.5 20.8 24 27.2 29.5 20.8 34.2 34.2 39.8 29.5 31.1 11.3"
+     id="polygon6"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+  <circle
+     class="c"
+     cx="24"
+     cy="24"
+     r="21.5"
+     id="circle8"
+     style="fill:none;fill-opacity:1;stroke:#ffffff;stroke-opacity:1" />
+</svg>
